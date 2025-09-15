@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Amana Marketing Dashboard",
-  description: "Comprehensive marketing analytics and insights for data-driven decision making",
+  description:
+    "Comprehensive marketing analytics and insights for data-driven decision making",
 };
 
 export default function RootLayout({
