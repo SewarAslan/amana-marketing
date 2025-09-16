@@ -91,27 +91,27 @@ export default function Home() {
                 <CardMetric
                   title="Total Campaigns"
                   value={marketingData.marketing_stats.total_campaigns}
-                  icon={<Target className="h-5 w-5" />}
+                  icon={<Target className="h-5 w-5 text-blue-500" />}
                 />
 
                 <CardMetric
                   title="Total Revenue"
                   value={`$${marketingData.marketing_stats.total_revenue.toLocaleString()}`}
-                  icon={<DollarSign className="h-5 w-5" />}
+                  icon={<DollarSign className="h-5 w-5 text-green-500" />}
                   className="text-green-400"
                 />
 
                 <CardMetric
                   title="Average ROAS"
                   value={`${marketingData.marketing_stats.average_roas}x`}
-                  icon={<TrendingUp className="h-5 w-5" />}
+                  icon={<TrendingUp className="h-5 w-5 text-emerald-500" />}
                   className="text-blue-400"
                 />
 
                 <CardMetric
                   title="Total Conversions"
                   value={marketingData.marketing_stats.total_conversions}
-                  icon={<Users className="h-5 w-5" />}
+                  icon={<Users className="h-5 w-5 text-pink-500" />}
                   className="text-purple-400"
                 />
               </div>
@@ -128,13 +128,13 @@ export default function Home() {
                 <CardMetric
                   title="Top Performing Medium"
                   value={marketingData.marketing_stats.top_performing_medium}
-                  icon={<Target className="h-5 w-5" />}
+                  icon={<Target className="h-5 w-5 text-blue-500" />}
                 />
 
                 <CardMetric
                   title="Top Performing Region"
                   value={marketingData.marketing_stats.top_performing_region}
-                  icon={<MapPin className="h-5 w-5" />}
+                  icon={<MapPin className="h-5 w-5 text-emerald-500" />}
                 />
               </div>
             </div>
@@ -150,25 +150,25 @@ export default function Home() {
                 <CardMetric
                   title="Peak Performance Day"
                   value={marketingData.market_insights.peak_performance_day}
-                  icon={<Calendar className="h-5 w-5" />}
+                  icon={<Calendar className="h-5 w-5 text-orange-500" />}
                 />
 
                 <CardMetric
                   title="Peak Performance Time"
                   value={marketingData.market_insights.peak_performance_time}
-                  icon={<Clock className="h-5 w-5" />}
+                  icon={<Clock className="h-5 w-5 text-yellow-500" />}
                 />
 
                 <CardMetric
                   title="Top Converting Product"
                   value={marketingData.market_insights.top_converting_product}
-                  icon={<ShoppingBag className="h-5 w-5" />}
+                  icon={<ShoppingBag className="h-5 w-5 text-violet-500" />}
                 />
 
                 <CardMetric
                   title="Fastest Growing Region"
                   value={marketingData.market_insights.fastest_growing_region}
-                  icon={<MapPin className="h-5 w-5" />}
+                  icon={<MapPin className="h-5 w-5 text-red-500" />}
                 />
               </div>
             </div>
