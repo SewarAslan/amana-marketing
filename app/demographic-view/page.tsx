@@ -202,8 +202,11 @@ export default function DemographicView() {
 
   if (isLoading) {
     return (
-      <div className="flex h-screen items-center justify-center bg-gray-50 dark:bg-gray-900">
-        <div className="h-16 w-16 animate-spin rounded-full border-4 border-dashed border-blue-500"></div>
+      <div className="flex h-screen bg-gray-900">
+        <Navbar />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="h-16 w-16 animate-spin rounded-full border-4 border-dashed border-blue-500"></div>
+        </div>
       </div>
     );
   }
