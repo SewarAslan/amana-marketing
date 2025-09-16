@@ -12,6 +12,7 @@ import {
   Calendar,
   MapPin,
   BarChart3,
+  Smartphone,
 } from "lucide-react";
 
 interface NavigationItem {
@@ -52,6 +53,12 @@ const navigationItems: NavigationItem[] = [
     name: "Region View",
     icon: MapPin,
     href: "/region-view",
+  },
+  {
+    id: "device-view",
+    name: "Device View",
+    icon: Smartphone,
+    href: "/device-view",
   },
 ];
 
